@@ -2,6 +2,7 @@
   "name": "discord-bot-mario",
   "version": "1.0.0",
   "description": "A discord bot with discord.js",
+  "type": "module",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
