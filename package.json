@@ -1,0 +1,27 @@
+{
+  "name": "discord-bot-mario",
+  "version": "1.0.0",
+  "description": "A discord bot with discord.js",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firatbatar/discord-bot-mario.git"
+  },
+  "keywords": [
+    "Discord",
+    "discord.js"
+  ],
+  "author": "Fırat Batar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firatbatar/discord-bot-mario/issues"
+  },
+  "homepage": "https://github.com/firatbatar/discord-bot-mario#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  }
+}
