@@ -13,7 +13,7 @@ config();
 
 // Create a new client instance
 const client = new Client({
-    intents: [GatewayIntentBits.Guilds],
+    intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages],
 });
 
 // Commands are attacjed to client for easy access in other files etc.
