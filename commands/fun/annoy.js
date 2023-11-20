@@ -3,7 +3,7 @@ import { SlashCommandBuilder, userMention } from 'discord.js';
 const annoy_messages = [
     "senin benin ben bir taraflarını mikim!",
     "anan.",
-]
+];
 
 export const data = new SlashCommandBuilder()
     .setName('annoy')
@@ -18,5 +18,5 @@ export async function execute(interaction) {
     
     const random_message_idx = Math.floor(Math.random() * annoy_messages.length);
     const annoy_msg = annoy_messages[random_message_idx];
-    await interaction.reply(`${userMention(target.id)} ${annoy_msg}`);
+    await interaction.reply(`${userMention(target.id)}, ${annoy_msg}`);
 }
